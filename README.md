@@ -136,3 +136,7 @@ This would allow an app to index all the users who live in Massachusetts without
 **But** the problem with this structure, however, would be that if the user were to move to a new address in a new state, the update to each of the 3 address documents in the 3 Models would happen independently - meaning they could be reordered, an app could learn about one but not the other two, or one of the writes could even fail entirely while the other two succeed. This could lead to inconsistent views about where the user actually lives.
 
 So the key point in deciding the model's size is to consider its use. If there is a strong relationship between the fields, go for Large models otherwise, Small models.
+
+### P.S I am very much open to any suggestions, errors or add ons to this tutorial.
+
+### Written by - Naman Garg
