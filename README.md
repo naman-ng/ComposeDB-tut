@@ -35,7 +35,7 @@ But the thing to note is in GraphQL, we only have Array/list as the data structu
 
 ### 1. Store graphical data in an **Adjacency list**
 
-In this method, we make a 2D list. Every index of the list stores another list containing the nodes that **index number** it is pointing to. For eg, in the below example 3rd index stores a list containing 6 and 5 as node 3 is pointing towards 6 and 5 in graph.
+In this method, we make a 2D list. Every index of the list stores another list containing the nodes that **index number** it is pointing to. For eg, in the below example 3rd index stores a list containing 6 and 5 as node 3 is pointing towards 6 and 5 in graph. <br>
 ![image.png](./adjList.jpg)
 
 ```
